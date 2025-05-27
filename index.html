@@ -1,0 +1,767 @@
+<!--
+
+** CETTE PROPRIÉTÉ APPARTIENT À LUCHMUN DYLAN, SOCIÉTÉ ARTIFICIO **
+
+** TOUT UTILISATION DU SITE SANS MON ACCORD AMÈNERONT À DES POURSUITES JUDICIAIRES. **
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un don, Un smile - Ensemble, offrons-leur de la joie</title>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo-sf.png" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css"">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- 
+    - fontawesome
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-transparent.png" style="position: absolute; width: 100px; margin-top: -30px">
+      </a>
+      <nav class="navbar" data-navbar style="margin-right: auto; margin-left: auto;">
+        <div class="wrapper">
+          <img src="./assets/images/logo-transparent.png" style="position: absolute; width: 100px;">
+          <a href="#" class="logo"></a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="association.html" class="navbar-link" data-nav-link>Association</a>
+            </li>
+            <li class="parent">
+              <a href="collecte.html" class="navbar-link" data-nav-link>Donations</a>
+            </li>
+            <li>
+              <a href="/blog/blog.html" class="navbar-link" data-nav-link>Ressources</a>
+            </li>
+            <li>
+              <a href="tri.html" class="navbar-link" data-nav-link>Tri</a>
+            </li>
+            <li>
+              <a href="faq.html" class="navbar-link" data-nav-link>À propos</a>
+            </li>
+        </ul>
+      </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+        - #ACCUEIL
+      -->
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle has-before">Bienvenue sur Un don, Un smile</p>
+            <h1 class="h1 hero-title" style="font-size: 64px;">Participez au changement dans la vie des enfants hospitalisés</h1>
+            <p class="hero-text">
+              Découvrez chaque jour ce que vous pouvez faire pour aider vos proches. <br> Être informé, c’est aussi aider les enfants hospitalisés en sensibilisant ceux qui vous entourent.
+              <br>
+              <br>
+              Chaque geste compte, vous pouvez être acteur du changement !
+            </p>
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary btn-custom">Nous contacter</a>
+            </div>
+          </div>
+          <figure class="hero-banner has-before " style="--width: 650; --height: 650;">
+            <img src="./assets/images/Team work-bro.png"  alt="hero banner" class="img-cover">
+          </figure>
+        </div>
+      </section>
+
+      <!-- 
+        - #ASSOCIATION
+      -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner-logo">
+            <img src="./assets/images/logo-transparent.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title" style="text-align: center;">Qui sommes-nous ?</h2>
+
+            <p class="section-text" style="text-align: justify;">
+              Un don, Un smile est une association à but non lucratif qui incarne un engagement sans faille envers les enfants hospitalisés.
+              Nous avons une double mission. Experts dans le domaine médical, nous avons à cœur de rendre l’accès à l’information concernant 
+              les maladies qui touchent les enfants, les projets d’hôpitaux ou les témoignages de personnes ayant vécu ces maladies, plus facile et rapide pour vous.
+              Nous avons aussi pour mission de collecter divers dons, allant des fournitures scolaires aux jouets, en passant par des livres, dans le but de les reverser 
+              intégralement aux services pédiatriques des hôpitaux. Des petits gestes équivalent à de grands changements.
+            </p>
+            <br>
+            <!-- <div class="btn-group">
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-custom"><span class="span" style="color: #ffffff;" >Devenir bénévole ?</span></a>
+              </button>
+            </div> -->
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #DONATIONS
+      -->
+      <section class="section service section-dona" id="features" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center" style="margin-bottom:1%">-Donnez un peu, offrez un sourire-</p>
+          <h2 class="h2 section-title text-center">Donations</h2>
+          <p class="section-text text-center">
+            Découvrez notre section donation, le cœur battant de notre mission chez Un don, Un smile. C'est là que votre générosité trouve sa voie pour illuminer la 
+            vie des enfants des services pédiatrique des hôpitaux. Grâce à votre soutien, nous pouvons offrir des fournitures essentielle, des activités récréatives et 
+            un soutien financier aux hôpitaux. Explorez nos options de don pour voir comment vous pouvez contribuer à apporter un sourire et de l'espoir à ces jeunes 
+            combattants. Chaque geste compte. Chaque don fait la différence. Ensemble, faisons briller l'avenir de ces enfants.
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="service-card has-after" style="background-color: #3ab9bd; color: #ffffff; border-radius: 10px">
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center; color: #ffffff">Collecte de founitures scolaires</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Vos dons comme les cahiers de différentes tailles et types, tels que des cahiers lignés, à carreaux ou à pages blanches, peuvent permettre aux 
+                    enfants de prendre des notes, dessiner ou écrire des histoires. Les crayons de qualité adaptés aux enfants offrant une variété de couleurs peuvent 
+                    amener à encourager la créativité artistique. Les stylos et autres articles essentiels pour aider les enfants à poursuivre leur éducation pendant 
+                    leur séjour à l&#39;hôpital.
+                  </p>
+                  <a href="fourniture.html" class="href btn btn-primary">-<b>Voir d'avantage</b>-</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card has-after" style="background-color: #84bba3; color: #ffffff; border-radius: 10px">
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center; color: #ffffff"">Campagne de collecte de jouets</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Rassembler des jouets neufs ou en bon état pour offrir du réconfort et du divertissement aux enfants pendant leur traitement médical. Les jeux de sociétés adaptés aux enfants, tels que 
+                    des jeux de mémoire ou des jeux de correspondance, sont parfaits pour des activités en groupe et encourager la socialisation. Les jouets non bruyant commes des figurines, des poupées pourront permettre 
+                    aux enfants de créer des histoires et d'exprimer leur imagination pendant leur séjour.
+                  </p>
+                  <a href="jouets.html" class="href btn btn-primary">-Voir d'avantage-</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card has-after" style="background-color: #efa829; color: #ffffff; border-radius: 10px">
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center; color: #ffffff"">Collecte de livres pour enfants</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Grâce aux livres, les enfants pourront s’évader en lisant des histoires ou en se cultivant. Des livres de tout âge, allant des livres pour bébé jusqu’à l’adolescence, peuvent aider les 
+                    enfants à développer leur imagination. N’hésitez pas à nous contacter si vous avez des livres, que ce soit d’aventure, science-fiction, policier, pour enfant,
+                    ils peuvent encore servir à d'autres.
+                  </p>
+                  <a href="livres.html" class="href btn btn-primary">-Voir d'avantage-</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card has-after" style="background-color: #d54b72; color: #ffffff; border-radius: 10px">
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center; color: #ffffff"">Campagne de collecte de matériel artistique</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Les enfants ont besoin de se dépenser et de laisser leurs pensées et imaginations s’exprimer, c’est pourquoi, des feutres, crayons de couleur, peintures, pinceaux, ardoises, cahiers de dessins,
+                    sont les bienvenus pour permettre à ces enfants hospitalisés à laisser leur imagination s’exprimer.
+                  </p>
+                  <a href="artistique.html" class="href btn btn-primary" style="margin-top:13.7%">-Voir d'avantage-</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="collecte.html" class="btn btn-primary btn-custom">Voir les autres donations</a>
+        </div>
+      </section>
+      
+      <!-- 
+        - #EQUIPES
+      -->
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center" style="margin-bottom:1%">-Une équipe unie pour faire la différence-</p>
+          <h2 class="h2 section-title text-center">L'équipe</h2>
+          <p class="section-text text-center">
+            Découvrez notre section équipes, où des individus dévoués se rassemblent sous la bannière de <b>Un don, Un smile</b> pour apporter réconfort et espoir aux 
+            enfants des hôpitaux. Découvrez les membres de notre équipe engagés et apprenez-en davantage sur nos bénévoles dévoués. Ensemble, nous formons une famille 
+            unie par une cause commune : apporter du soutien et des sourires aux enfants malades. Rejoignez-nous pour que l’on puisse travailler main dans la main pour 
+            faire une différence dans leur vie.
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/man.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">LUCHMUN Shayan</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Notre <b>président</b>, LUCHMUN Shayan, incarne la passion et l'engagement au cœur de notre association <b>Un don, Un smile</b>. Doté d&#39;une 
+                    vision inspirante, il guide notre équipe avec détermination pour réaliser notre mission de répandre la joie et l&#39;espoir à travers chaque don et 
+                    sourire offerts aux enfants hospitalisés. Également Designer en chef et responsable des réseaux sociaux, sa créativité permet d’égailler Un don, Un 
+                    smile.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/women.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">LASOWSKI Laura</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    La <b>vice-présidente</b>, LASOWSKI Laura, est un pilier essentiel de notre association <b>Un don, Un smile</b>. Grâce à son esprit visionnaire et à 
+                    ses idées, elle guide notre équipe avec détermination vers l&#39;accomplissement de notre mission. Elle est également la rédactrice en chef de 
+                    notre groupe, retrouver dans notre section Blog, l’ensemble de ces articles qui pourront vous en apprendre davantage.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <!-- <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/women.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">CEVAK Mathilde</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    CEVAK Mathilde, <b>la secrétaire générale de notre association Un don, Un smile</b>, est chargé de l’ensemble des documents administratifs de notre 
+                    groupe. Grâce à son sens du professionnalisme, chaque document est rédigé dans les formes et respecte l’ensemble des engagements réalisé par notre association.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+            <!-- <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/man.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">BLASUTTO Hugo</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Notre <b>responsable des relations d’influence chez Un don, Un smile</b>, BLASUTTO Hugo, est en charge de la communication avec des influenceurs 
+                    afin de récupérer des objets qu’ils auraient pu acheter pour des défis. Notre objectif est de limiter la perte de jouet ou de livre qui iront à la 
+                    poubelle pour rien alors que ces objets peuvent servir à d’autres enfants.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+            <!-- <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/women.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">AHERDANE Aziza</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Anciennement notre responsable de communication visuelle, aujourd’hui AHERDANE Aziza est devenu notre 1er <b>bénévole</b>. Nous lui devons la 
+                    création de notre logo et de notre slogan, sa créativité a permis de représenter l’essence même de notre association, <b>Un don, Un smile</b>, 
+                    avec un sourire partant du U.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+            <!-- <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/women.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">GRANGIRAD Camille</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Notre <b>responsable communication partenariat</b>, GRANGIRAD Camille, avec compétence et détermination, forge des collaborations fructueuses pour 
+                    soutenir notre mission en faveur des enfants des services pédiatriques des hôpitaux. Son engagement favorise des partenariats solides qui renforcent 
+                    notre capacité à apporter réconfort et espoir à ceux qui en ont le plus besoin.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/man.png" width="80" height="80" loading="lazy" alt="App Development" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="text-align: center;">LUCHMUN Dylan</h3>
+                  <p class="card-text" style="text-align: justify;">
+                    Notre <b>responsable web</b>, LUCHMUN Dylan, est le moteur numérique de notre association <b>Un don, Un smile</b>. Avec une expertise technique et une passion pour la cause, il veille à ce que notre présence en ligne reflète notre engagement 
+                    envers les enfants malades. Grâce à son innovation et son dévouement, il assure que notre site web est une plateforme efficace pour sensibiliser, collecter des fonds et offrir du soutien aux enfants hospitalisés.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--
+        - #BLOG
+      -->
+      <section class="section service section-dona" id="blog" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center" style="margin-bottom:1%">-Découvrez notre blog : Inspirez-vous !-</p>
+          <h2 class="h2 section-title text-center">Blog</h2>
+          <p class="section-text text-center">
+            Découvrez notre section blog, un espace dédié à l&#39;inspiration et au partage au sein de notre communauté Un don, Un smile. Plongez dans des histoires 
+            inspirantes, des témoignages émouvants et des articles informatifs qui illustrent notre engagement envers les enfants des services pédiatriques des hôpitaux. 
+            Explorez notre blog pour être informé des dernières actualités, des événements à venir et des façons dont vous pouvez contribuer à faire une différence dans 
+            la vie des enfants malades.
+          </p>
+        </div>
+
+        <div class="main-card">
+          <ul class="cards" style="margin-block-end: 50px;">
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/tsa.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">TSA chez l'enfant</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur le TSA chez l'enfant 📖</p>
+                  <a href="/blog/blog-22.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/tdah.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">TDAH chez l'enfant</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur le TDAH chez l'enfant 📖</p>
+                  <a href="/blog/blog-21.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/handicap.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Handicap chez l'enfant</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur l'handicap invisible chez l'enfant 📖</p>
+                  <a href="/blog/blog-20.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/depression.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Dépression chez les enfants</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur la dépression chez les enfants 📖</p>
+                  <a href="/blog/blog-19.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/alim.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Les troubles alimentaires</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur les troubles alimentaires 📖</p>
+                  <a href="/blog/blog-18.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/trouble.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Troubles de l'apprentissage</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur les troubles de l'apprentissage 📖</p>
+                  <a href="/blog/blog-17.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/hospital-2.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">L’hospitalisation de jour chez les enfants</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur l’hospitalisation de jour chez les enfants 📖</p>
+                  <a href="/blog/blog-16.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/learn.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">La dyslexie</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur la dyslexie 📖</p>
+                  <a href="/blog/blog-15.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/cancer-sein.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Le cancer du sein</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur le cancer du sein 📖</p>
+                  <a href="/blog/blog-14.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/hospital.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Les types d'hospitalisation</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur les différents types d'hospitalisation 📖</p>
+                  <a href="/blog/blog-13.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/cancer.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Les types de cancer</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur les différents types de cancer 📖</p>
+                  <a href="/blog/blog-12.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/Retroviruses-rafiki.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Les maladies chroniques</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur les maladies chroniques 📖</p>
+                  <a href="/blog/blog-11.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/Retroviruses-rafiki.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">La bronchiolite</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur La bronchiolite 📖</p>
+                  <a href="/blog/blog-10.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/Retroviruses-amico.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">La mucoviscidose</h2>
+                  <p class="card_text">Découvrez en détail, notre article sur la mucoviscidose 📖</p>
+                  <a href="/blog/blog-9.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/Pediatrician-cuate.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Les coliques du nourrisson</h2>
+                  <p class="card_text">Découvrez notre article sur les coliques du nourisson 📖</p>
+                  <a href="/blog/blog-8.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/Virus-cuate.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">La maladie de Crohn</h2>
+                  <p class="card_text">Découvrez en détail, l'histoire de la maladie de crohn 📖</p>
+                  <a href="/blog/blog-7.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"  
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/blog.png">
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Notre histoire</h2>
+                  <p class="card_text">Découvrez le commencement de notre association, Un don, Un smile 📖</p>
+                  <a href="/blog/blog-6.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li>
+            <!-- <li class="cards_item">
+              <div class="card">
+                <div class="card_image" 
+                     style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                            border-bottom: 2px solid var(--mint-cream);"
+                >
+                  <img class="img-blog" src="/assets/images/web.png">
+                </div>
+                <div class="card_content">
+                 <h2 class="card_title">Notre site internet</h2>
+                  <p class="card_text">Découvrez notre site internet développé par notre responsable web LUCHMUN Dylan 👨🏽‍💻</p>
+                  <a href="/blog/blog-5.html"><button class="btn-card card_btn">Découvrir</button></a>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+        <a href="/blog/blog.html" class="btn btn-primary btn-custom">Découvrir nos articles</a>
+      </section>
+
+      <!--
+        - #Contact
+      -->
+      <section class="section service" id="contact" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center" style="margin-bottom:1%">-Contactez-nous dès maintenant ! Nous sommes là pour vous.-</p>
+          <h2 class="h2 section-title text-center">Contactez-nous</h2>
+          <p class="section-text text-center">
+            Vous souhaitez faire une donation, un partenariat ou en apprendre plus sur Un don, un smile ? Nous vous invitons à prendre contact avec nos équipes afin de répondre à toutes vos questions.
+          </p>
+        </div>
+      </section>
+      <div class="container-contain">
+        <div class="content">
+          <div class="left-side">
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">undonunsmile@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Envoyez-nous un message</div>
+            <p>Besoin d'aide ? Laissez-nous savoir comment nous pouvons vous assister en remplissant ce formulaire de contact.</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="40ba66b7-d65e-42c0-8fd7-0433ab305fd2">
+              <div class="input-box">
+                <input type="text" name="name" placeholder="Entrez votre nom" required/>
+              </div>
+              <div class="input-box">
+                <input type="email" name="email" placeholder="Entrez votre email" required />
+              </div>
+              <div class="input-box message-box">
+                <textarea name="message" placeholder="Entrez votre message" required></textarea>
+              </div>
+              <div class="button">
+                <input type="submit" value="Envoyer" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <img src="../assets/images/logo-transparent.png" style="width: 150px; margin-bottom: 25px;">
+          <p class="footer-text">
+              Un don, Un smile est une association à but non-lucratif qui incarne un engagement sans faille envers les enfants hospitalisés. Ensemble, offrons-leur de la joie
+          </p>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">L'association</p>
+          </li>
+          <li>
+            <a href="#blog" class="footer-link">Blog</a>
+          </li>
+          <li>
+            <a href="faq.html" class="footer-link">FAQ</a>
+          </li>
+          <li>
+            <a href="mention-legale.html" class="footer-link">Mention légale</a>
+          </li>
+          <li>
+            <a href="cgu.html" class="footer-link">CGU</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Donations</p>
+          </li>
+          <li>
+            <a href="jouets.html" class="footer-link">Jouet</a>
+          </li>
+          <li>
+            <a href="jouets.html" class="footer-link">Jeux</a>
+          </li>
+          <li>
+            <a href="livres.html" class="footer-link">Livres</a>
+          </li>
+          <li>
+            <a href="artistique.html" class="footer-link">Créativité</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contactez-nous</p>
+          </li>
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            <a href="mailto:undonunsmile@gmail.com" class="contact-link">undonunsmile@gmail.com</a>
+          </li>
+          <li class="footer-item">
+            <ul class="social-list" style="margin-right: auto; margin-left: auto;">
+              <li>
+                <a href="https://www.linkedin.com/company/un-don-un-smile/about/" class="social-link" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/un_don_un_smile/" class="social-link" target="_blank">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2025 Un don Un smile | All Rights Reserved by <a href="#" class="copyright-link">ARTIFICIO DIGITAL MARKETING</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

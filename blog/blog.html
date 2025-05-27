@@ -1,0 +1,618 @@
+<!--
+
+** CETTE PROPRIÉTÉ APPARTIENT À LUCHMUN DYLAN, SOCIÉTÉ ARTIFICIO **
+
+** TOUT UTILISATION DU SITE SANS MON ACCORD AMÈNERONT À DES POURSUITES JUDICIAIRES. **
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un don, Un smile - Ensemble, offrons-leur de la joie</title>
+    <!-- 
+        - favicon
+    -->
+    <link rel="shortcut icon" href="../assets/images/logo-sf.png" type="image/svg+xml">
+    <!-- 
+        - custom css link
+    -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- 
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- 
+        - fontawesome
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <!-- 
+    - #HEADER
+    -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo-transparent.png" style="position: absolute; width: 100px; margin-top: -30px">
+            </a>
+            <nav class="navbar" data-navbar style="margin-right: auto; margin-left: auto;">
+                <div class="wrapper">
+                    <img src="./assets/images/logo-transparent.png" style="position: absolute; width: 100px;">
+                    <a href="#" class="logo"></a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="../association.html" class="navbar-link" data-nav-link>Association</a>
+                    </li>
+                    <li class="parent">
+                        <a href="../collecte.html" class="navbar-link" data-nav-link>Donations</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="navbar-link" data-nav-link>Ressources</a>
+                    </li>
+                    <li>
+                        <a href="../tri.html" class="navbar-link" data-nav-link>Tri</a>
+                    </li>
+                    <li>
+                        <a href="../faq.html" class="navbar-link" data-nav-link>À propos</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- 
+                - #ACCUEIL
+            -->
+            <section class="section hero" id="home" aria-label="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle has-before">Découvrez notre blog : Inspirez-vous!</p>
+                        <h1 class="h1 hero-title">Blog</h1>
+                        <p class="hero-text">
+                            Découvrez notre section blog, un espace dédié à l'inspiration et au partage au sein de notre communauté <b>Un don, Un smile</b>. 
+                        </p>
+                        <div class="btn-group">
+                            <a href="#card-blog" class="btn btn-primary btn-custom">Découvrir nos articles</a>
+                        </div>
+                    </div>
+                    <figure class="hero-banner has-before " style="--width: 650; --height: 650;">
+                        <img src="../assets/images/blog1.png"  alt="hero banner" class="img-cover">
+                    </figure>
+                </div>
+            </section>
+            <div class="main-card" id="card-blog">
+                <ul class="cards" style="margin-block-end: 50px; margin-top:5%">
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                               style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                      border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/tsa.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">TSA chez l'enfant</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur le TSA chez l'enfant 📖</p>
+                                <a href="/blog/blog-22.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                               style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                      border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/tdah.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">TDAH chez l'enfant</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur le TDAH chez l'enfant 📖</p>
+                                <a href="/blog/blog-21.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                               style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                      border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/handicap.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Handicap chez l'enfant</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur l'handicap invisible chez l'enfant 📖</p>
+                                <a href="/blog/blog-20.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                               style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                      border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/depression.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">La dépression chez l'enfant</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur la dépression chez les enfants 📖</p>
+                                <a href="/blog/blog-19.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/alim.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Les troubles alimentaires</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur les troubles alimentaires 📖</p>
+                                <a href="/blog/blog-18.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/trouble.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Trouble de l'apprentissage</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur les troubles de l'apprentissage📖</p>
+                                <a href="/blog/blog-17.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/hospital-2.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">L’hospitalisation de jour chez les enfants</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur l’hospitalisation de jour chez les enfants 📖</p>
+                                <a href="/blog/blog-16.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/learn.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">La dyslexie</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur la dyslexie 📖</p>
+                                <a href="/blog/blog-15.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/cancer-sein.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Le cancer du sein</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur le cancer du sein 📖</p>
+                                <a href="/blog/blog-14.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/hospital.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Les types d'hospitalisation</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur les types d'hospitalisation 📖</p>
+                                <a href="/blog/blog-13.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/cancer.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Les types de cancer</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur les types de cancer 📖</p>
+                                <a href="/blog/blog-12.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/Retroviruses-rafiki.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Les maladies chroniques</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur les maladies chroniques 📖</p>
+                                <a href="/blog/blog-11.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/Retroviruses-rafiki.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">La bronchiolite</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur La bronchiolite 📖</p>
+                                <a href="/blog/blog-10.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/Retroviruses-amico.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">La mucoviscidose</h2>
+                                <p class="card_text">Découvrez en détail, notre article sur la mucoviscidose 📖</p>
+                                <a href="/blog/blog-9.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/Pediatrician-cuate.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Les coliques du nourrisson</h2>
+                                <p class="card_text">Découvrez notre article sur les coliques du nourisson 📖</p>
+                                <a href="/blog/blog-8.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/Virus-cuate.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">La maladie de Crohn</h2>
+                                <p class="card_text">Découvrez en détail, l'histoire de la maladie de crohn 📖</p>
+                                <a href="/blog/blog-7.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"  
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/blog.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Notre histoire</h2>
+                                <p class="card_text">Découvrez le commencement de notre association, Un don, Un smile 📖</p>
+                                <a href="/blog/blog-6.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image" 
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/web.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Notre site internet</h2>
+                                <p class="card_text">Découvrez notre site internet développé par notre responsable web LUCHMUN Dylan 👨🏽‍💻</p>
+                                <a href="/blog/blog-5.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image" 
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/LK.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Notre LinkedIn</h2>
+                                <p class="card_text">Découvrez nous sur notre page LinkedIn Un don, Un smile 📱</p>
+                                <a href="/blog/blog-4.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image" 
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/facebook.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Notre Facebook</h2>
+                                <p class="card_text">Découvrez nous sur notre page Facebook Un don, Un smile 📱</p>
+                                <a href="/blog/blog-3.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li> -->
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image" 
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/marketing.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Notre Instagram</h2>
+                                <p class="card_text">Découvrez nous sur notre page Instagram Un don, Un smile 📷</p>
+                                <a href="/blog/blog-2.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image" 
+                                    style="background: linear-gradient(90deg, rgba(25, 70, 72, 1) 0%, rgba(25, 106, 108, 1) 35%, rgba(25, 70, 72, 1) 100%);
+                                        border-bottom: 2px solid var(--mint-cream);"
+                            >
+                                <img class="img-blog" src="/assets/images/web-1.png">
+                            </div>
+                            <div class="card_content">
+                                <h2 class="card_title">Un don, Un smile</h2>
+                                <p class="card_text">Découvrez la mise en place de notre site internet Un don, Un smile 😃</p>
+                                <a href="/blog/blog-1.html"><button class="btn-card card_btn">Découvrir</button></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <style>
+                .img-card-blog {
+                    display: block;
+                    border: 0;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+        
+                .thumbnail {
+                    margin: 0;
+                }
+        
+                textarea {
+                    color: inherit;
+                    font: inherit;
+                    margin: 0;
+                }
+
+                /*LAYOUT*/
+                .centered {
+                    margin: 0 auto;
+                    padding: 0 1em;
+                }
+        
+                @media screen and (min-width: 52em) {
+                    .centered {
+                        max-width: 65em;
+                    }
+                }
+        
+                .card-blog {
+                    background: var(--mint-cream);
+                    margin-bottom: 2em;	
+                    border-radius: 10px;
+                }
+        
+                .card-blog a {
+                    color: black;
+                    text-decoration: none;
+                }
+        
+                .card-blog a:hover {
+                    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+                    border-radius: 10px;
+                }
+        
+                .card-content-blog {
+                    padding: 1.4em;
+                }
+        
+                .card-content-blog h2 {
+                    margin-top: 0;
+                    margin-bottom: .5em;
+                    font-weight: normal;
+                }
+        
+                .card-content-blog p {
+                    font-size: 95%;
+                }
+
+                @media screen and (min-width: 40em) {
+                    .cards-blog {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        margin-top: -1em;
+                    }
+        
+                    .card-blog {
+                        display: flex;
+                        flex: 0 1 calc(50% - .5em);
+                        margin-bottom: 1em;
+                    }
+                }
+        
+                @media screen and (min-width: 60em) {
+                    .cards-blog {
+                        margin-top: inherit;
+                    }
+                    
+                    .card-blog {
+                        flex: 0 1 calc(33% - 1em);
+                        margin-bottom: 2em;
+                    }
+                }
+            </style>
+        </article>
+    </main>
+    <!-- 
+        - #FOOTER
+    -->
+    <footer class="footer">
+        <div class="footer-top section">
+            <div class="container">
+                <div class="footer-brand">
+                    <img src="../assets/images/logo-transparent.png" style="width: 150px; margin-bottom: 25px;">
+                    <p class="footer-text">
+                        Un don, Un smile est une association à but non-lucratif qui incarne un engagement sans faille envers les enfants hospitalisés. Ensemble, offrons-leur de la joie
+                    </p>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">L'association</p>
+                    </li>
+                    <li>
+                        <a href="#blog" class="footer-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="../faq.html" class="footer-link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="../mention-legale.html" class="footer-link">Mention légale</a>
+                    </li>
+                    <li>
+                        <a href="../cgu.html" class="footer-link">CGU</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Donations</p>
+                    </li>
+                    <li>
+                        <a href="../jouets.html" class="footer-link">Jouet</a>
+                    </li>
+                    <li>
+                        <a href="../jouets.html" class="footer-link">Jeux</a>
+                    </li>
+                    <li>
+                        <a href="../livres.html" class="footer-link">Livres</a>
+                    </li>
+                    <li>
+                        <a href="../artistique.html" class="footer-link">Créativité</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contactez-nous</p>
+                    </li>
+                    <li class="footer-item">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                        <a href="mailto:undonunsmile@gmail.com" class="contact-link">undonunsmile@gmail.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <ul class="social-list" style="margin-right: auto; margin-left: auto;">
+                            <li>
+                                <a href="https://www.linkedin.com/company/un-don-un-smile/about/" class="social-link" target="_blank">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/un_don_un_smile/" class="social-link" target="_blank">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                &copy; 2025 Un don Un smile | All Rights Reserved by <a href="#" class="copyright-link">ARTIFICIO DIGITAL MARKETING</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <!-- 
+        - custom js link
+    -->
+    <script src="../assets/js/script.js"></script>
+    <!-- 
+        - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
